@@ -130,7 +130,10 @@
   .right-section .notification-icon-container {
     display: none;
   }
-
+.right-section .current-user-pictures-icon{
+    margin-right: 15px;
+  }
+  
 }
 .upload-icon,
 .youtube-apps-icon,
@@ -190,3 +193,4 @@
   height: 32px;
   border-radius: 16px;
 }
+
