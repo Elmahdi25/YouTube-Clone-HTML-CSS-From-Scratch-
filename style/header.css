@@ -124,6 +124,14 @@
   flex-shrink: 0;
 }
 
+@media (max-width: 450px) {
+  .right-section .upload-icon-container,
+  .right-section .youtube-apps-container,
+  .right-section .notification-icon-container {
+    display: none;
+  }
+
+}
 .upload-icon,
 .youtube-apps-icon,
 .notifications-icon {
@@ -141,7 +149,7 @@
 }
 
 .upload-icon-container .tooltip,
-.youtube-apps-container .tooltip, 
+.youtube-apps-container .tooltip,
 .notification-icon-container .tooltip {
   position: absolute;
   background-color: gray;
